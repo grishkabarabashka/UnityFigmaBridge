@@ -1,5 +1,9 @@
 ﻿# Change Log:
 
+## 1.0.8.2
+
+Testing features
+
 ## 1.0.8
 
 Better support for Linear Color Space (@naoya-maeda). Please note that from this release
