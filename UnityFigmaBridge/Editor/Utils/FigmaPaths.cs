@@ -58,7 +58,7 @@ namespace UnityFigmaBridge.Editor.Utils
                     return $"Assets/{matchingEntry.SourceNode.name}.png";
                 default:
                     var safeNodeId = FigmaDataUtils.ReplaceUnsafeFileCharactersForNodeId(nodeId);
-                    return $"{FigmaPaths.FigmaServerRenderedImagesFolder}/{matchingEntry.SourceNode.name}_{safeNodeId}.png";
+                    return $"{FigmaPaths.FigmaServerRenderedImagesFolder}/{matchingEntry.SourceNode.componentId}-{matchingEntry.SourceNode.name}.png";
                    
             }
         }
